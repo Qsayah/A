@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق قائمة المهام</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>قائمة المهام</h1>
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="أضف مهمة جديدة">
+            <input type="datetime-local" id="task-time">
+            <select id="task-difficulty">
+                <option value="سهل">سهل</option>
+                <option value="متوسط">متوسط</option>
+                <option value="صعب">صعب</option>
+            </select>
+            <button id="add-task-button">أضف</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+          </html>
